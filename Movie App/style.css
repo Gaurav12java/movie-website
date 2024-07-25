@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(209, 23, 23);
+    color:  white;
+}
+
+
+.logo , .searchcont{
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+.searchcont input{
+    width: 15rem;
+    height: 2rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.searchcont button{
+    height:2rem;
+    width: 6rem;
+    font-family: "poppins";
+    cursor: pointer;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.searchcont button:hover{
+    background-color: rgb(247, 247, 237);
+}
+
+
+#data{
+    margin-left: 40%;
+    margin-top: 2rem;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 3rem;
+}
+
+
+#copyright{
+    margin-left: 40%;
+    margin-top: 25%;
+    font-family: "poppins";
+}
+
+
+.submitForm{
+    display: flex;
+}
+
+.movie-poster{
+    margin-top: 2rem;
+    margin-left: 15rem;
+}
+
+.movie-details{
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+.navbar{
+    display: block;
+    font-size: medium;
+}
+
+.submitForm{
+    display: block;
+    font-size: medium;
+
+}
+
+.movie-poster{
+    margin-left: 5rem;
+    font-size: medium;
+
+}
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 799px)  {
+
+    .navbar{
+        display: block;
+        font-size: medium;
+    }
+    
+    .submitForm{
+        display: block;
+        font-size: medium;
+    }
+    
+    .movie-poster{
+        margin-left: 8rem;
+        font-size: medium;
+    }
+    
+    }
+
+
+    @media only screen and (min-width: 800px) and (max-width: 900px) {
+
+        .navbar{
+           font-size: 2rem;
+           font-size: large;
+        }
+        
+        .submitForm{
+           font-size: 2rem;
+           font-size: large;
+        }
+        
+        .movie-poster{
+            margin-left: 8rem;
+            font: 2rem;
+            font-size: large;
+        }
+        
+        }
